@@ -982,12 +982,13 @@ hr {
 }
 
 .blogs__title{
+	display: block;
 	color: #333;
 	font-size: 12px;
 	text-transform: uppercase;
 	text-decoration: none;
-
-	line-height: 1.2;
+	line-height: 1.5;
+	margin-bottom: 5px;
 }
 
 .blogs__title:hover{
@@ -1057,4 +1058,33 @@ hr {
 
 .subscibe__btn:focus{
 	outline: 0;
+}
+
+/*instagram*/
+.instagram{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.instagram__item{
+	width: 32%;
+	border-bottom: 1px solid #fff;
+}
+
+.instagram__item img{
+	display: block;
+}
+
+/*copyright*/
+.copyright{
+	border-top: 1px solid #e5e5e5;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 14px;
+	color:#333;
+}
+
+.copyright span{
+	color: #f38181;
 }
